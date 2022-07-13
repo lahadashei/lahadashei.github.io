@@ -1,0 +1,71 @@
+/* ==================================================
+  General
+================================================== */
+
+body {
+  background-color: #1C1F24;
+  margin: 0px 0px 0px 30px;
+  color: #B8C2CC;
+}
+
+h1 {
+  color: #5B73B1;
+}
+
+/* ==================================================
+  Layout
+================================================== */
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRow > div:nth-child(n+2) {
+  margin-left: 30px;
+}
+
+/* ==================================================
+  Tables
+================================================== */
+
+table {
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+table > caption {
+  font-size: larger;
+  color: #CAA057;
+  padding: 10px 15px;
+}
+
+th {
+  color: #DAC062;
+}
+
+td {
+}
+
+td, th {
+  font-size: large;
+  padding: 8px 12px;
+  border: 2px solid #3D454E;
+  text-align: center;
+}
+
+/* ==================================================
+  Colors
+================================================== */
+
+.textColorYellow {
+  color: #F7C300;
+}
+
+.textColorLightBlue {
+  color: #42AEFF;
+}
+
+.textColorRed {
+  color: #F63C00;
+}
